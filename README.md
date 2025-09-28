@@ -29,8 +29,45 @@ A small C library implementing **Markov chains** for probabilistic text generati
 ---
 
 ## Project Structure
+.
+├── CMakeLists.txt
+├── makefile
+├── .gitignore
+├── linked_list.c / linked_list.h
+├── markov_chain.c / markov_chain.h
+├── snakes_and_ladders.c
+├── tweets_generator.c / tweets_generator
+├── justdoit_tweets.txt
 
-Here’s a general outline of how you might use the library in your own C code:
+
+- **linked_list.\*** — helper list data structures  
+- **markov_chain.\*** — core logic for building and querying the Markov chain  
+- **tweets_generator.c** — example program to generate tweets from the chain  
+- **justdoit_tweets.txt** — sample text input (used to build the model)  
+- **snakes_and_ladders.c** — (maybe a project side file)  
+- **CMakeLists.txt / makefile** — build scripts  
+
+---
+
+## Requirements
+
+- A C compiler (e.g. `gcc`)  
+- CMake (if using the CMake build)  
+- Make (if using the provided makefile)  
+- Standard C library  
+
+---
+
+### Using CMake
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+
+
+### Examples
 
 
 #include "markov_chain.h"
