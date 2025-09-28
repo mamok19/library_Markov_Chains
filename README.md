@@ -39,7 +39,7 @@ A small C library implementing **Markov chains** for probabilistic text generati
 - **markov_chain.\*** — core logic for building and querying the Markov chain  
 - **tweets_generator.c** — example program to generate tweets from the chain  
 - **justdoit_tweets.txt** — sample text input (used to build the model)  
-- **snakes_and_ladders.c** — (maybe a project side file)  
+- **snakes_and_ladders.c** — an implement to check the libary
 - **CMakeLists.txt / makefile** — build scripts  
 
 ---
